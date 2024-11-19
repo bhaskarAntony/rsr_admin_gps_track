@@ -12,7 +12,7 @@ function TripTrack() {
   const [searchQuery, setSearchQuery] = useState('');
 
   return (
-    <div className="container-fluid p-1 bg-light h-100 p-0">
+    <div className="container-fluid p-4 bg-light h-100 p-0">
       <div className="card p-3 border-l">
         <h1 className="fs-5 text-start">RSR Tours & Travels</h1>
       </div>
