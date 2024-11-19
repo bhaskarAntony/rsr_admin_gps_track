@@ -64,7 +64,7 @@ function All({ status, searchQuery, selectedDate }) {
   });
 
   return (
-    <section className="container-fluid p-4 bg-white">
+    <section className="p-3 " style={{marginLeft:'20px'}}>
       
 
       <Grid container spacing={3}>
@@ -97,7 +97,7 @@ function All({ status, searchQuery, selectedDate }) {
           </div>
         ) : (
           filteredTrips.map((trip) => (
-            <div className="card mb-3 border shadow-sm text-start" key={trip._id}>
+            <div className="card mb-3 border shadow-sm text-start w-100" key={trip._id}>
               <div className="card-body">
                 <div className="d-flex gap-2 align-items-center">
                   <div className="car">

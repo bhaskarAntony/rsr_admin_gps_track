@@ -12,7 +12,7 @@ function TripTrack() {
   const [searchQuery, setSearchQuery] = useState('');
 
   return (
-    <div className="container-fluid p-1 bg-light h-100">
+    <div className="container-fluid p-1 bg-light h-100 p-0">
       <div className="card p-3 border-l">
         <h1 className="fs-5 text-start">RSR Tours & Travels</h1>
       </div>
@@ -41,7 +41,7 @@ function TripTrack() {
       </div>
         
   
-      <Tabs defaultActiveKey="all" id="trip-tabs" className="mb-3 bg-white">
+      <Tabs defaultActiveKey="all" id="trip-tabs" className="mb-3 bg-white p-0 w-100" style={{marginLeft:'15px'}}>
         <Tab eventKey="all" title="All">
           <All status="all" searchQuery={searchQuery} selectedDate={selectedDate}/>
         </Tab>
